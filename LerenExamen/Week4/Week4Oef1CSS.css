@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+
+
+.box{
+    width: 20%;
+    float: left;
+    margin: 20px;
+    border-radius: 4px;
+    border-color: yellow;
+    border-style: solid;
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: "Rage Italic";
+    color: yellow;
+}
+img{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+}
+audio {
+    width: 100%;
+}
+
+@media screen and (max-width: 200px) {
+    .box {
+        width: 100%;
+    }
+}
+

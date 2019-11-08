@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oef3</title>
+
+    <style>
+        .labelmargin {
+            width: 120px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+<form>
+    <label class="labelmargin">Voornaam</label>
+    <input type="text" size="20" id="voornaam" style="margin-bottom: 10px">
+    <br>
+    <label class="labelmargin">Achternaam</label>
+    <input type="text" size="20" id="achternaam" style="margin-bottom: 10px">
+    <br>
+    <input type="button" value="Genereer melding" id="melding" onclick="outputKlik()">
+    <input type="text" readonly id="output">
+</form>
+
+<script>
+    function outputKlik() {
+        let voornaam = document.getElementById("voornaam").value;
+        let achternaam = document.getElementById("achternaam").value;
+        if (voornaam ===""||achternaam ==="") {
+            document.getElementById("output").value = "Vul aub alle velden in";
+        } else {
+            if (isNaN(voornaam) && isNaN(achternaam)) {
+                document.getElementById("output").value = "Welkom " + voornaam + " " + achternaam;
+            } else {
+                document.getElementById("output").value = "Geef letters in"
+            }
+        }
+    }
+</script>
+</body>
+</html

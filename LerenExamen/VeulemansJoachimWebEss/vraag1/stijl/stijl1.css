@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: rgba(158,158,158,0.1);
+}
+
+.center {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+
+#titel {
+    text-align: right;
+    background-color: #FF8800;
+    padding: 100px;
+    font-size: 50pt;
+}
+
+nav>ul>li {
+    display: inline-block;
+    padding: 5px 5px 5px 0;
+}
+
+nav ul {
+    padding-left: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+
+nav a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+
+footer {
+    text-align: left;
+}
+
+article {
+    width: 30%;
+    overflow: auto;
+    border: #FFE0B2 solid 4px;
+    display: inline-block;
+}
+
+article:hover {
+    background-color: gray;
+}
+
+nav {
+    background-color: #FFBB33;
+    padding: 10px;
+    border-bottom: #FFE0B2 solid 4px;
+    text-align: left;
+}
+
+.content {
+    background-color: #ECEFF1;
+}
+
+.groen {
+    background-color: green;
+}
+
+.rood {
+    background-color: red;
+}
+
+article img {
+    width: 50%;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+.tableGyms th {
+    background-color: blue;
+}
+
+article p, article ul, article li, article h1 {
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: #FFBB33;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    article {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    article {
+        width: 95%;
+    }
+    article img {
+        width: 100%;
+        max-width: 400px;
+    }
+    .hoofding {
+        display: none;
+    }
+    nav>ul>li {
+        display: block;
+    }
+}

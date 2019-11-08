@@ -1,0 +1,21 @@
+table{
+    width: 100%;
+    background-color: orange;
+    font-style: oblique;
+
+}
+#rij1 {
+    background-color: firebrick;
+    color: white;
+}
+#rij4 {
+    color: white;
+    background-color: firebrick;
+    text-align: center;
+}
+#rij5 {
+    text-align: center;
+}
+#rij6 {
+    text-align: center;
+}

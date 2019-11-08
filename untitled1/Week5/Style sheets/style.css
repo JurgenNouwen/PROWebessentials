@@ -1,0 +1,18 @@
+#UitgelichteGame {
+    margin-left: 40px;
+    color: green;
+}
+body {
+    background-color: white;
+}
+nav {
+    background-color: grey;
+}
+a {
+    font-size: 25px;
+    font-family: "Agency FB";
+    mso-font-info-type: cursive;
+    color: mintcream;
+    margin-right: 25px;
+}
+

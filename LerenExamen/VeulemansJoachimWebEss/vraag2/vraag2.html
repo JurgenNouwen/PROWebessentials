@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo-lijst</title>
+    <script src="todocode.js"></script>
+    <style>
+        article {
+            border: black solid 1pt;
+            padding: 10px;
+            margin: 10px;
+        }
+        .delete {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>My ToDo</h1>
+<form action="" onsubmit="return false">
+    <label for="naam">Naam:</label>
+    <input id="naam" type="text" name="naam" value="" size="20" maxlength="20" required><br/>
+    <label for="datum">Datum deadline:</label>
+    <input id="datum" type="date" name="datum" value="" size="20" maxlength="20" required>
+    <button onclick="toevoegen()" type="button" >Add ToDo</button>
+</form>
+<h1 id="legetodo">Je ToDo-lijst is momenteel leeg, vakantie?!</h1>
+<div id="todoContainer">
+
+</div>
+</body>
+</html>

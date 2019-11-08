@@ -1,0 +1,74 @@
+body{
+    background-color: mintcream;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+a {
+    font-size: 25px;
+    font-family: "Agency FB";
+    mso-font-info-type: cursive;
+    color: mintcream;
+    display: inline-block;
+    padding: 10px;
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+
+}
+
+a:hover {
+    background-color: green;
+}
+
+footer {
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: absolute;
+
+}
+
+h2 {
+    color: darkolivegreen;
+}
+h2+p {
+    color: darkslategrey;
+}
+
+article {
+    padding: 8px;
+    width: 50%;
+}
+
+#bottombutton {
+    padding: 0px;
+    color: black;
+}
+.topmedia {
+    width: 640px ;
+    height: 480px;
+    position: relative;
+}
+
+table,th,tr,td{
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+}
+table td:last-child{
+    background-color: lightgreen;
+}
+
+ol,li {
+    color: darkslategray;
+}
+

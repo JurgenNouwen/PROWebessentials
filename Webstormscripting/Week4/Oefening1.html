@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <title>My home page</title>
+</head>
+<style>
+    table, td {
+        color: red;
+        background-color: black;
+        border: 1px solid blue;
+        text-align: center;
+        width: 20%;
+    }
+</style>
+<body>
+
+
+<script>
+    const MOUNTAINS = [
+        {name: "Kilimanjaro", height: 5895, place: "Tanzania"},
+        {name: "Everest", height: 8848, place: "Nepal"},
+        {name: "Mount Fuji", height: 3776, place: "Japan"},
+        {name: "Vaalserberg", height: 323, place: "Netherlands"},
+        {name: "Denali", height: 6168, place: "United States"},
+        {name: "Popocatepetl", height: 5465, place: "Mexico"},
+        {name: "Mont Blanc", height: 4808, place: "Italy/France"}
+    ];
+    let table = document.createElement("TABLE");
+    for (let i=0 ; i < MOUNTAINS.length ; i++) {
+        let tr = document.createElement("TR");
+        let td = document.createElement("TD");
+        td.append(MOUNTAINS[i].name);
+        let td1 = document.createElement("TD");
+        td1.append(MOUNTAINS[i].height);
+        let td2 = document.createElement("TD");
+        td2.append(MOUNTAINS[i].place);
+        tr.append(td);
+        tr.append(td1);
+        tr.append(td2);
+        table.append(tr);
+    }
+    document.body.appendChild(table);
+</script>
+</body>
+</html>

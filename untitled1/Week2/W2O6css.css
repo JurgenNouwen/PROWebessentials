@@ -1,0 +1,22 @@
+h1 {
+    color: orange;
+}
+hr {
+    border-color: orange;
+}
+.container {
+    position: relative;
+    border: 5px solid orange;
+    text-align: center;
+    float: right;
+
+}
+.text {
+    position: absolute;
+    font-style: italic;
+    color: black;
+    top: 70%;
+    left: 50%;
+    font-weight: bold;
+    transform: translate(-50%, +500%);
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="number" style="width: 50px;" id ="nummer1">
+<label>X</label>
+<input type="number" style="width: 50px;" id ="nummer2">
+<input type="submit" value="Bereken" onclick="toonKlik()">
+<br/>
+
+<script>
+    function toonKlik() {
+        let number1 = document.getElementById("nummer1").value;
+        let number2 = document.getElementById("nummer2").value;
+        document.getElementById("outputveld").value = "Het product van " + number1 + " en " + number2 + " is " + (number1 * number2);
+    }
+</script>
+
+<input type="text" readonly size="30" style="margin-top: 10px" id="outputveld";>
+
+</body>
+</html>
